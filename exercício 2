@@ -10,7 +10,7 @@ int main(){
     printf("Digite um sobrenome: ");
     scanf("%s", sobrenome);
 
-
-    printf("%s %s", nome, sobrenome);
+    printf("Seu nome é: %s %s", nome, sobrenome);
    
- return 0;}
+ return 0;
+}
