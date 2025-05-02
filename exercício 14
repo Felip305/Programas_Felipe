@@ -4,7 +4,7 @@ int main(){
 
 	int tab;
 	
-	printf("Qual tabuada quer visualizar?: ");
+	printf("Qual tabuada quer ver?: ");
 	scanf("%d", &tab);
 	printf("%d x %2d = %2d\n", tab, 1, tab*1);
 	printf("%d x %2d = %2d\n", tab, 2, tab*2);
