@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <math.h>
+#include <locale.h>
+
+int main(){
+
+    setlocale(LC_ALL,"portuguese");
+
+    float n1, n2, n3, n4;
+
+    printf("Digite 4 números inteiros:");
+    scanf("%f%f%f%f", &n1, &n2, &n3, &n4);
+
+     //media aritmetica
+    float m = (n1 + n2 + n3 + n4)/4;
+
+    printf("\na) A média aritmética simples desses números é igual a: %f\n\n", m);
+
+    //variancia dos dados
+    float d1 = pow((n1 - m), 2.0);
+    float d2 = pow((n2 - m), 2.0);
+    float d3 = pow((n3 - m), 2.0);
+    float d4 = pow((n4 - m), 2.0);
+
+    float soma_diferencas;
+    soma_diferencas = d1 + d2 + d3 +d4;
+
+    float variancia = soma_diferencas/3;
+
+    printf("b) A variância amostral econtrada utilizando esses numeros e: %f\n\n", variancia);
+
+    //desvio padrao
+    float desvio_padrao;
+    desvio_padrao = pow(variancia, 0.5);
+
+    printf("c) O desvio padrão encontrado utilizando esses números é: %f\n\n", desvio_padrao);
+
+    return 0;
+}
