@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main(){
+
+    setlocale(LC_ALL, "Portuguese_Brazil");
+
+    int n1, n2, n3;
+
+    printf("Digite números inteiros\n");
+    scanf("%d%d%d" , &n1, &n2, &n3);
+    printf("media aritmética = %d\n",  (n1 + n2 + n3) / 3);
+
+    return 0;
+}
