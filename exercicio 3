@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main (){
+    setlocale(LC_ALL, "portuguese");
+
+        printf("\nOlha esse X enorme:\n\n\n");
+        printf("             O     O\n              O   O \n               O O  \n                O   \n               O O  \n              O   O \n             O     O\n");
+
+return 0;
+}
