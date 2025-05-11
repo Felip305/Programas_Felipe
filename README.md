@@ -1,1 +1,1 @@
-Listas de Exercício de Logica de programação
+Lista de Exercícios 1 de Logica de programação
